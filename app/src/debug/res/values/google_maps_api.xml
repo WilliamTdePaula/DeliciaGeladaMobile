@@ -1,0 +1,26 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=F4:CC:AF:07:4B:29:37:D1:EC:60:32:11:CC:34:20:F7:E5:2A:21:98%3Bbr.com.deliciagelada.app
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    F4:CC:AF:07:4B:29:37:D1:EC:60:32:11:CC:34:20:F7:E5:2A:21:98
+
+    SHA-1 certificate fingerprint:
+    F4:CC:AF:07:4B:29:37:D1:EC:60:32:11:CC:34:20:F7:E5:2A:21:98
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyA_oRc8yhQRx-NONY9m3RMtfAsVGPlpIA4
+    </string>
+</resources>
