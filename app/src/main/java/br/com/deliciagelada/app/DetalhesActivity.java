@@ -80,8 +80,6 @@ public class DetalhesActivity extends AppCompatActivity {
             });
         }
 
-
-
         ctx = this;
 
         avaliacao.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
@@ -92,9 +90,7 @@ public class DetalhesActivity extends AppCompatActivity {
             }
         });
 
-
-
-        Toast.makeText(DetalhesActivity.this, item.getMedia()+"", Toast.LENGTH_SHORT).show();
+        Toast.makeText(DetalhesActivity.this, "Media "+item.getMedia()+"", Toast.LENGTH_SHORT).show();
 
         Picasso.with(getApplicationContext())
                 .load("http://10.0.2.2/inf3m/turmaB/Projeto%20Delicia%20Gelada/CMS/"+ item.getCaminhoImagem())

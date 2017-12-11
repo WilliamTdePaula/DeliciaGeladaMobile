@@ -8,6 +8,15 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalhes do Suco"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:id="@+id/tltDetalhes"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -155,14 +164,7 @@
 
     </ScrollView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Detalhes do Suco"
-        android:layout_gravity="center_horizontal"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:id="@+id/tltDetalhes"/>
+
 
 
 </LinearLayout>
